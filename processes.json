@@ -1,0 +1,28 @@
+{
+  "apps": [
+    {
+      "name": "backend",
+      "cwd": "./backend/",
+      "script": "./backend/server.js",
+      "merge_logs": true,
+      "max_restarts": 40,
+      "instances": 1,
+      "max_memory_restart": "400M",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    {
+      "name": "frontend",
+      "cwd": "./frontend/",
+      "script": "./frontend/dist/server/index.js",
+      "merge_logs": true,
+      "max_restarts": 40,
+      "instances": 1,
+      "max_memory_restart": "400M",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
