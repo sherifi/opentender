@@ -54,12 +54,39 @@ Minimal Deployment on one machine
 
 # Installation
 
-This repository installs and manages a minimal deployment installation with the frontend available on http://localhost:3000
+This repository helps installing and managing a minimal deployment installation with the frontend available on http://localhost:3000
 
 ```
 opentender
 ├── backend
-├── data  // only folder with read-write access after build
+├── data
 ├── frontend
 └── scraper
 ```
+
+- install [NodeJS](https://nodejs.org/) 6.x and [NPM](https://www.npmjs.com/)
+
+- install [Elasticsearch](https://www.elastic.co/) 2.4.x
+
+- install system global [pm2 Process Manager](http://pm2.keymetrics.io/)
+
+- run script `./setup.sh` in the `setup`-folder 
+
+  this installs all opentender parts and copies the default configuration
+  
+  please note: you need configure the tenderapi scraper with your digiwhist partner info, since it is currently non-public 
+
+# Starting
+
+run script `./start.sh`
+
+if you want to start not as a daemon and with log in the console `./start-no-daemon.sh`
+
+# Stopping
+
+run script `./stop.sh`
+  
+# Updating
+
+run script `./update.sh`
+  

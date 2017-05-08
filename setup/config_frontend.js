@@ -5,7 +5,7 @@ let settings = {
 			host: '127.0.0.1',
 			port: 3000
 		},
-		data: { // absolute paths to the data folders (see digiwhist/data-folder)
+		data: { // absolute paths to the data folders (see https://github.com/digiwhist/opentender-data)
 			path: path.resolve(__dirname, '../data/shared')
 		},
 		disableCache: false // html is cached, disable here for debugging purposes
