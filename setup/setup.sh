@@ -8,13 +8,13 @@ if [ -f $FILE ]; then
     cp setup/config_backend.js backend/config.js
     cp setup/config_frontend.js frontend/config.js
     cd backend
-    npm init
+    npm install
     cd ..
     cd frontend
-    npm init
+    npm install
     cd ..
     cd scraper
-    npm init
+    npm install
     cd ..
     cd setup
 else
