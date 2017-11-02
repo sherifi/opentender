@@ -12,8 +12,8 @@ let settings = {
 		backendUrl: 'http://127.0.0.1:3001' // full url of the backend
 	},
 	client: {
-		version: '0.0.3', // version of app (is e.g. used for display in footer & "uncaching" resources on app update)
-		backendUrl: 'http://127.0.0.1:3001' // full url of the backend
+		backendUrl: 'http://127.0.0.1:3001', // full url of the backend
+		devMode: false // e.g. disable page tracking if true
 	},
 	webpack: {
 		analyze: false, // analyze the webpack build (generates .html results in /dist folder)
