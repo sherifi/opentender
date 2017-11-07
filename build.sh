@@ -1,4 +1,4 @@
 #!/bin/bash
 cd frontend
-npm run build:prod
+npm run build
 cd ..
