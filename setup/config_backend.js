@@ -14,6 +14,9 @@ let settings = {
 		path: path.resolve(__dirname, '../data/backend'),
 		tenderapi: path.resolve(__dirname, '../data/tenderapi')
 	},
-	disableCache: false // json is cached, disable here for debugging purposes
+	cache: {
+		type: 'internal', // disabled | internal | memcached
+		memcached: ['127.0.0.1:11211'] // if type == memcached, server address(es)
+	}
 };
 module.exports = settings;
