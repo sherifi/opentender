@@ -7,7 +7,7 @@
       "merge_logs": true,
       "max_restarts": 40,
       "instances": 1,
-      "max_memory_restart": "400M",
+      "max_memory_restart": "1000M",
       "env": {
         "NODE_ENV": "production"
       }
@@ -19,7 +19,7 @@
       "merge_logs": true,
       "max_restarts": 40,
       "instances": 1,
-      "max_memory_restart": "400M",
+      "max_memory_restart": "1000M",
       "env": {
         "NODE_ENV": "production"
       }
