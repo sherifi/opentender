@@ -1,5 +1,5 @@
-let path = require('path');
-let settings = {
+var path = require('path');
+module.exports = {
 	listen: {  // where the backend should be listening
 		host: '127.0.0.1',
 		port: 3001
@@ -19,4 +19,3 @@ let settings = {
 		memcached: ['127.0.0.1:11211'] // if type == memcached, server address(es)
 	}
 };
-module.exports = settings;
