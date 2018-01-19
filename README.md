@@ -64,7 +64,7 @@ opentender
 └── scraper
 ```
 
-- install [NodeJS](https://nodejs.org/) 6.x and [NPM](https://www.npmjs.com/)
+- install [NodeJS](https://nodejs.org/) 8.x and [NPM](https://www.npmjs.com/)
 
 - install [Elasticsearch](https://www.elastic.co/) 2.4.6
 
