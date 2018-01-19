@@ -48,7 +48,7 @@ Minimal Deployment on one machine
 
 # Tools
 
-* Scraper - The data in the Digiwhist Project is provided by a REST API. For now it is non public and restricted on project partners. This script downloads the data for by imported by the Backend to the Database.
+* Scraper - The data in the Digiwhist Project is provided by a REST API. For now it is non public and restricted on project partners. This script downloads the data to be imported by the Backend to the Database.
 * Playbook - An ansible install script for server deployment
 
 
@@ -66,7 +66,7 @@ opentender
 
 - install [NodeJS](https://nodejs.org/) 6.x and [NPM](https://www.npmjs.com/)
 
-- install [Elasticsearch](https://www.elastic.co/) 2.4.x
+- install [Elasticsearch](https://www.elastic.co/) 2.4.6
 
 - install system global [pm2 Process Manager](http://pm2.keymetrics.io/)
 
@@ -89,4 +89,3 @@ run script `./stop.sh`
 # Updating
 
 run script `./update.sh`
-  
