@@ -48,8 +48,9 @@ Minimal Deployment on one machine
 
 # Tools
 
-* Scraper - The data in the Digiwhist Project is provided by a REST API. For now it is non public and restricted on project partners. This script downloads the data to be imported by the Backend to the Database.
-* Playbook - An ansible install script for server deployment
+* tenderapi-scraper - The data in the Digiwhist Project is provided by a REST API. For now it is non public and restricted on project partners. This script downloads the data to be imported by the Backend to the Database.
+* opentender-playbook - An ansible install script for server deployment
+* opentender-docker - An docker based installation for test purposes
 
 
 # Installation
