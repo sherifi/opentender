@@ -68,6 +68,8 @@ opentender
 
 - install [Elasticsearch](https://www.elastic.co/) 2.4.6
 
+- install [Opentender Elasticsearch Plugin](https://github.com/digiwhist/elasticsearch-native-script-opentender)
+
 - install system global [pm2 Process Manager](http://pm2.keymetrics.io/)
 
 - run script `./setup.sh` in the `setup`-folder 
